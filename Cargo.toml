@@ -1,0 +1,13 @@
+[package]
+name = "rubocop-daemon-wrapper"
+version = "0.1.0"
+authors = ["Dave Goddard <dave@goddard.id.au>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+fs2 = "*"
+which = "*"
+tempdir = "*"
+scopeguard = "*"
